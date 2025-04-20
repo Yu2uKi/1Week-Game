@@ -1,0 +1,13 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/NameInputStyle.uss?fileID=7433441132597879392&amp;guid=51d9b88fb52cdbb4fa771712e3d65f7a&amp;type=3#NameInputStyle" />
+    <ui:VisualElement name="Root">
+        <ui:Label text="名前を入力してください" />
+        <ui:Label text="あなたの名前" />
+        <ui:TextField name="PlayerNameInput" class="textInput" focusable="true" style="-unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=9a9577968be086b458b23c4a1f9e1416&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        <ui:Label text="AIの名前" />
+        <ui:TextField name="AINameInput" class="textInput" focusable="true" style="-unity-font-definition: url(&apos;project://database/Assets/UI/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=9a9577968be086b458b23c4a1f9e1416&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        <ui:Button name="ConfirmButton">
+            <ui:Label text="けってい" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
