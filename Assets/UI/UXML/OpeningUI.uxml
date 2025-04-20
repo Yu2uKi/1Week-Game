@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" engine="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/OpeningStyle.uss?fileID=7433441132597879392&amp;guid=939c8991cff212f4aa8fd1138b1351c2&amp;type=3#OpeningStyle" />
+    <ui:VisualElement name="Root">
+        <ui:Label name="TitleLabel" text="AIのクセが強すぎる件" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.ttf?fileID=12800000&amp;guid=0eb958dbdc2250449aa879aeeff6b0a5&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        <ui:Button name="StartButton" text="はじめる" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        <ui:Button name="SettingsButton" text="せってい" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.ttf?fileID=12800000&amp;guid=0eb958dbdc2250449aa879aeeff6b0a5&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        <ui:VisualElement name="SettingsPanel">
+            <ui:Label text="設定" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:Label text="BGM音量" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:SliderInt name="BGMVolumeSlider" low-value="0" high-value="100" value="100" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:Label text="SE音量" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:SliderInt name="SEVolumeSlider" low-value="0" high-value="100" value="100" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:Button name="ResetNameButton" text="名前リセット" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+            <ui:Button name="CloseSettingsButton" text="とじる" style="-unity-font-definition: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/Kaisotai-Next-UP-B.otf?fileID=12800000&amp;guid=52f536f360347fd41a51d2f11383472a&amp;type=3#Kaisotai-Next-UP-B&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
